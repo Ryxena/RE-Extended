@@ -2,6 +2,7 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 1
 # https://github.com/j-hc/revanced-magisk-module/issues/554
 [Music]
+app-name = "Youtube Music"
 enabled = true
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
@@ -12,6 +13,7 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [YouTube]
+app-name = "Youtube"
 enabled = true
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
@@ -20,11 +22,3 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-[Reddit]
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
-arch = "both"
-build-mode = "both"

@@ -10,7 +10,7 @@ build-mode = "both"
 version = "beta"
 included-patches = "'Hide Shorts dimming'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom double tap length'"
-patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=revancify_red -OchangeSplashIcon=true -OrestoreOldSplashAnimation=false -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black""
+patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=revancify_red -OchangeSplashIcon=true -OrestoreOldSplashAnimation=false -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
 patches-version = "dev"
 cli-version = "dev"
 

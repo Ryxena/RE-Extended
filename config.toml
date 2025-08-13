@@ -1,22 +1,49 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
-# https://github.com/j-hc/revanced-magisk-module/issues/554
-[Youtube-Music]
-app-name = "Youtube Music"
-enabled = true
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
 [YouTube]
-app-name = "Youtube"
-enabled = true
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea ReVanced"
 arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+build-mode = "both"
+version = "beta"
+included-patches = "'Hide Shorts dimming'"
+excluded-patches = "'Custom Shorts action buttons' 'Custom double tap length'"
+patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=revancify_red -OchangeSplashIcon=true -OrestoreOldSplashAnimation=false -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black""
+patches-version = "dev"
+cli-version = "dev"
+
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea ReVanced"
+arch = "both"
+build-mode = "both"
+version = "beta"
+patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon=revancify_red -OchangeSplashIcon=true -OrestoreOldSplashIcon=false -e 'Custom branding name for YouTube Music' -OappNameLauncher=YT-Music"
+patches-version = "dev"
+cli-version = "dev"
+
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea ReVanced"
+arch = "both"
+build-mode = "both"
+version = "beta"
+patches-version = "dev"
+cli-version = "dev"
+
+[Spotify]
+apkmirror-dlurl = "https://apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea ReVanced"
+arch = "both"
+build-mode = "both"
+version = "beta"
+patches-version = "dev"
+cli-version = "dev"

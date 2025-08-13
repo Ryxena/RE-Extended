@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (patches 5.8.1)",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/Ryxena/RE-Extended/releases/download/3/youtube-revanced-extended-magisk-v19.47.53-arm-v7a.zip",
+  "version": "v20.32.36 (patches dev.1)",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/Ryxena/RE-Extended/releases/download/4/youtube-anddea-revanced-magisk-v20.32.36-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/Ryxena/RE-Extended/update/build.md"
 }

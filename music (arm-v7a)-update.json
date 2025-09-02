@@ -1,6 +1,6 @@
 {
-  "version": "v8.34.51 (patches dev.11)",
-  "versionCode": 13,
-  "zipUrl": "https://github.com/Ryxena/RE-Extended/releases/download/13/music-anddea-revanced-magisk-v8.34.51-arm-v7a.zip",
+  "version": "v8.34.51 (patches 3.12.0)",
+  "versionCode": 15,
+  "zipUrl": "https://github.com/Ryxena/RE-Extended/releases/download/15/music-anddea-revanced-magisk-v8.34.51-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/Ryxena/RE-Extended/update/build.md"
 }
